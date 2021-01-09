@@ -1,6 +1,8 @@
+// Import Inquirer and fs
 const inqiurer = require(`./node_modules/inquirer`);
 const fs = require(`fs`);
 
+// Create user questions to generate readme sections
 inqiurer
     .prompt([
         {
@@ -52,8 +54,9 @@ inqiurer
             message: `What is your email address?`
         }
 
-
+    
     ]).then((response) => {
+// String of markdown to create readme file
 let readmeString = 
 `# ${response.projectTitle}
 
@@ -103,10 +106,11 @@ ${response.projectTest}
 
 Or, email me with addition questions at ${response.userEmail}.`
 
+        // Create readme file based on user input
         fs.writeFile("README.md", readmeString, (err) =>
             err ? console.error(err) : console.log("Success!"))
 
-
+    // If there is an error, log it to the console
     }).catch(function (err) {
         err ? console.error(err) : console.log("Success!")
     })
