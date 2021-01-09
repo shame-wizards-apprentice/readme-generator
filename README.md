@@ -11,6 +11,7 @@ A command-line application to generate a polished, professional readme file for 
 * [Installation](##Installation)
 * [Usage](##Usage)
 * [Built](##Built)
+* [Questions](##Questions)
 
 
 ## Installation
