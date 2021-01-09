@@ -40,3 +40,8 @@ When you have answered all the questions, a file called README.md will be genera
 
 * [Node.js](https://nodejs.org/en/)
 * [NPM Inquirer](https://www.npmjs.com/package/inquirer)
+
+## Questions
+
+To contact me with further questions, email rachelnelsonschille@gmail.com.
+[Github Profile](https://github.com/RachelNS)
