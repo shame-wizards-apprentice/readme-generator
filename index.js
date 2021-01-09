@@ -107,7 +107,7 @@ ${response.projectTest}
 Or, email me with addition questions at ${response.userEmail}.`
 
         // Create readme file based on user input
-        fs.writeFile("README.md", readmeString, (err) =>
+        fs.writeFile("README1.md", readmeString, (err) =>
             err ? console.error(err) : console.log("Success!"))
 
     // If there is an error, log it to the console
