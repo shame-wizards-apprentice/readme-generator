@@ -20,6 +20,7 @@ First, make sure you have node.js installed.
 That link can be found in the "Built" section. Then, fork this repository and run the following commands in your terminal window: 
 
 npm init -y
+
 npm i inquirer
 
 This will install the Inquirer package you will need to run this application.
